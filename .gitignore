@@ -1,0 +1,29 @@
+# === Ignore Large Files ===
+*.zip
+*.avi
+*.mp4
+*.mov
+
+# === macOS System Files ===
+.DS_Store
+
+# === Node.js Projects ===
+node_modules/
+.env
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# === VS Code Workspace Files ===
+.vscode/
+
+# === OS Junk ===
+Thumbs.db
+Desktop.ini
+
+# === Optional: Git Backup ===
+*.orig
+
+# === Optional: Compiled Output ===
+dist/
+build/
