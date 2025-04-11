@@ -10,7 +10,7 @@
     <!-- ===============================================-->
     <!--    Document Title-->
     <!-- ===============================================-->
-    <title>DSS-Philly | Design Support Services of Philadelphia, LLC</title>
+    <title>DSS - Philly & Ottawa | Design Support Services</title>
 
 
     <!-- ===============================================-->
@@ -85,6 +85,10 @@
           display: inline-block;
           position: relative;
         }
+
+        .linkedin-link-icon {
+          padding-right: 15px;
+        }
         
         @media (max-width: 768px) {
           #dss-philly-ottawa {
@@ -98,10 +102,13 @@
           .dss-logo-part-hyphen {
             display: none;
           }
+          #dss-logo-header {
+            padding-top: 25px !important;
+          }
           .dss-logo-red {
-            font-size: 5.50rem;
-            margin-bottom: 0.1em;
-            padding-bottom: 0;
+            font-size: 10.10rem;
+            vertical-align: middle; 
+            line-height: 20px; /* Match to font-size to minimize extra space */
           }
         }
 
@@ -338,7 +345,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-6 bg-white py-7 py-md-8">
+            <div id="mobile-ui-logo-header" class="col-lg-6 bg-white py-7 py-md-8">
               <div class="row align-items-center justify-content-center">
                 <div class="col-lg-10 text-black text-center text-lg-left" data-zanim-timeline="{}" data-zanim-trigger="scroll">
                   <div class="overflow-hidden"><h1 id="dss-logo-header" class="display-3 fs-5 fs-sm-6 dss-logo-sans" data-zanim-xs='{"delay":0.2}'>
@@ -769,64 +776,76 @@
 
       <!-- ============================================-->
       <!-- <section> begin ============================-->
-      <section class="text-center bg-light border-top border-bottom border-300" id="team">
+        <section class="text-center bg-light border-top border-bottom border-300" id="team">
+          <div class="container">
+            <div class="row align-items-center justify-content-center">
+              <div class="col-12 mb-4 mb-lg-5 text-center">
+                <h2 class="fs-3 fs-sm-4 text-underline mb-3">meet the team</h2>
+                <p class="font-italic lead">A passionate group of design professionals dedicated to helping architects, developers and owners realize their vision.</p>
+              </div>
+        
+              <!-- Row for profile images -->
+              <div class="row w-100">
+                <div id="dss-david-profile-image" class="col-12 col-md-6 col-lg-6 mb-4" data-zanim-timeline='{"delay":0.3}' data-zanim-trigger="scroll">
+                  <div class="hoverbox">
+                    <img class="rounded img-fluid" src="assets/img/dss/team/David.jpg" alt="" data-zanim-xs='{"animation":"zoom-in","delay":0.1}' />
+                    <div class="hoverbox-content p-3">
+                      <div class="d-flex align-items-end justify-content-end h-90">
+                        <a class="linkedin-link-icon" href="https://www.linkedin.com/in/g-david-schoenhard-5a15a913/" target="_blank">
+                          <span class="fs-1 ml-2 fab fa-linkedin"></span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="overflow-hidden">
+                    <a href="page-profile.html">
+                      <h5 class="fs-0 font-weight-bold mt-3 mb-1" data-zanim-xs='{"from":{"y":45},"delay":0.2}'>G. David Schoenhard, AIA</h5>
+                    </a>
+                  </div>
+                  <div class="overflow-hidden">
+                    <h6 class="text-700 font-weight-normal text-uppercase ls" data-zanim-xs='{"from":{"y":22},"delay":0.3}'>Principal-in-Charge / Manager</h6>
+                  </div>
+                </div>
 
-        <div class="container">
-          <div class="row align-items-center justify-content-center">
-            
-            <div class="col-12 mb-4 mb-lg-5 text-center">
-              <h2 class="fs-3 fs-sm-4 text-underline mb-3">meet the team</h2>
-              <p class="font-italic lead">A passionate group of design professionals dedicated to helping architects, developers and owners realize their vision.</p>
-            </div>
-           
-            <div class="col-sm-6 col-lg-9 pb-6" data-zanim-timeline='{"delay":0.4}' data-zanim-trigger="scroll">
-              <img class="img-fluid" src="assets/img/dss/team/DSS_Entrance.jpg" alt="" data-zanim-xs='{"animation":"zoom-in","delay":0.1}' />
-            </div>
-            
-            <div class="col-sm-6 col-lg-3" data-zanim-timeline='{"delay":0.3}' data-zanim-trigger="scroll">
-             <div class="" data-zanim-timeline='{"delay":0.3}' data-zanim-trigger="scroll">
-              <div class="hoverbox">
-                <img class="rounded img-fluid" src="assets/img/dss/team/David.jpg" alt="" data-zanim-xs='{"animation":"zoom-in","delay":0.1}' />
-                <div class="hoverbox-content p-3">
-                  <div class="d-flex align-items-end justify-content-end h-90">
-                    <a class="dss-logo-red" href="https://www.linkedin.com/in/g-david-schoenhard-5a15a913/" target="_blank"><span class="fs-1 ml-2 fab fa-linkedin"></span></a>
+                <div id="dss-pam-profile-image" class="col-12 col-md-6 col-lg-6 mb-4" data-zanim-timeline='{"delay":0.3}' data-zanim-trigger="scroll">
+                  <div class="hoverbox">
+                    <img class="rounded img-fluid" src="assets/img/dss/team/Pam.jpg" alt="" data-zanim-xs='{"animation":"zoom-in","delay":0.1}' />
+                    <div class="hoverbox-content p-3">
+                      <div class="d-flex align-items-end justify-content-end h-90">
+                        <a class="linkedin-link-icon" href="#" target="_blank">
+                          <span class="fs-1 ml-2 fab fa-linkedin"></span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="overflow-hidden">
+                    <a href="page-profile.html">
+                      <h5 class="fs-0 font-weight-bold mt-3 mb-1" data-zanim-xs='{"from":{"y":45},"delay":0.2}'>Pamela Campbell</h5>
+                    </a>
+                  </div>
+                  <div class="overflow-hidden">
+                    <h6 class="text-700 font-weight-normal ls" data-zanim-xs='{"from":{"y":22},"delay":0.3}'>ASSOCIATE / BUSINESS ADMINISTRATION / BECxA ADMINISTRATOR</h6>
                   </div>
                 </div>
               </div>
-              <div class="overflow-hidden">
-                <a href="page-profile.html">
-                  <h5 class="fs-0 font-weight-bold mt-3 mb-1" data-zanim-xs='{"from":{"y":45},"delay":0.2}'>G. David Schoenhard, AIA</h5>
-                </a>
-              </div>
-              <div class="overflow-hidden">
-                <h6 class="text-700 font-weight-normal text-uppercase ls" data-zanim-xs='{"from":{"y":22},"delay":0.3}'>Principal-in-Charge / Manager</h6>
-              </div>
-            </div>
-              
-            <div class="pt-4" data-zanim-timeline='{"delay":0.3}' data-zanim-trigger="scroll">
-              <div class="hoverbox">
-                <img class="rounded img-fluid" src="assets/img/dss/team/Pam.jpg" alt="" data-zanim-xs='{"animation":"zoom-in","delay":0.1}' />
-                <div class="hoverbox-content p-3">
-                  <div class="d-flex align-items-end justify-content-end h-90">
-                    <a class="dss-logo-red" href="#" target="_blank"><span class="fs-1 ml-2 fab fa-linkedin"></span></a>
+              <!-- Row for entrance images -->
+              <div class="row w-100">
+                <div id="dss-philly-entrance" class="col-12 col-md-6 col-lg-6 pb-4" data-zanim-timeline='{"delay":0.4}' data-zanim-trigger="scroll">
+                  <img class="img-fluid" src="assets/img/dss/team/DSS_Philly.png" alt="" data-zanim-xs='{"animation":"zoom-in","delay":0.1}' />
+                  <div class="overflow-hidden">
+                      <h5 class="fs-0 font-weight-bold mt-3 mb-1" data-zanim-xs='{"from":{"y":45},"delay":0.2}'>Design Support Services of Philadelphia, LLC</br>(DSS-Philly)</h5> 
+                  </div>
+                </div>
+                <div id="dss-ottawa-entrance" class="col-12 col-md-6 col-lg-6 pb-4" data-zanim-timeline='{"delay":0.4}' data-zanim-trigger="scroll">
+                  <img class="img-fluid" src="assets/img/dss/team/DSS_Ottawa.png" alt="" data-zanim-xs='{"animation":"zoom-in","delay":0.1}' />
+                  <div class="overflow-hidden">
+                    <h5 class="fs-0 font-weight-bold mt-3 mb-1" data-zanim-xs='{"from":{"y":45},"delay":0.2}'>Design Support Services of Canada</br>(DSS-Ottawa)</h5> 
                   </div>
                 </div>
               </div>
-              <div class="overflow-hidden">
-                <a href="page-profile.html">
-                  <h5 class="fs-0 font-weight-bold mt-3 mb-1" data-zanim-xs='{"from":{"y":45},"delay":0.2}'>Pamela Campbell</h5>
-                </a>
-              </div>
-              <div class="overflow-hidden">
-                <h6 class="text-700 font-weight-normal ls" data-zanim-xs='{"from":{"y":22},"delay":0.3}'>ASSOCIATE / BUSINESS ADMINISTRATION / BECxA ADMINISTRATOR</h6>
-              </div>
             </div>
           </div>
-          </div>
-        </div>
-        <!-- end of .container-->
-
-      </section>
+        </section>
       <!-- <section> close ============================-->
       <!-- ============================================-->
 
