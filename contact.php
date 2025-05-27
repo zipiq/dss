@@ -117,8 +117,8 @@
                   <h4 class="d-inline-block mb-0 mb-lg-2 text-dark">Design Support Services of Canada</br>(DSS-Ottawa):</h4>
                   <p class="font-weight-bold mb-0">Address:<span class="ml-2 font-weight-normal">396 Cooper St, 4th Flr, Suite 400, Ottawa, ON, Canada, K2P 2H7</span></p>
                   <p class="font-weight-bold mb-0">Phone:<span class="ml-2 font-weight-normal"><a class="text-700" href="tel:6106608250">(610) 660-8250</a></span></p>
-                  <p class="font-weight-bold mb-0">E-mail:<span class="ml-2 font-weight-normal font-italic"><a class="text-700" href="mailto:gdschoenhard@dsscan.com">gdschoenhard@dsscan.com</a></span></p>
-                  <p class="font-weight-bold mb-4">Website:<span class="ml-2 font-weight-normal font-italic"><a class="text-700" href="http://www.dsscan.com/">www.DSSCan.com</a></span></p>
+                  <p class="font-weight-bold mb-0">E-mail:<span class="ml-2 font-weight-normal font-italic"><a class="text-700" href="mailto:gdschoenhard@dssottawa.ca">gdschoenhard@dssottawa.ca</a></span></p>
+                  <p class="font-weight-bold mb-4">Website:<span class="ml-2 font-weight-normal font-italic"><a class="text-700" href="http://www.dssottawa.ca/">www.DSSOttawa.ca</a></span></p>
                  
                   <div class="mt-3">
                     <a class="btn btn-dark btn-sm" href="https://www.linkedin.com/company/40698537" target="_blank"><span class="fab fa-linkedin-in" data-fa-transform="grow-6"></span></a>
